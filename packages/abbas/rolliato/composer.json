@@ -1,0 +1,26 @@
+{
+    "name": "user6/rolliato",
+    "description": "a simple ACL controll laravel package",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Abbas\\Rolliato\\": "src/"
+        }
+    },
+
+    "authors": [
+        {
+            "name": "abbas"
+        }
+    ],
+    "require": {
+        "guzzlehttp/guzzle": "^7.0.1"
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Abbas\\Rolliato\\RolliatoServiceProvider"
+            ]
+        }
+    }
+}
