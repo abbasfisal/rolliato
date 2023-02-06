@@ -56,7 +56,7 @@ class MyController extends Controller
      */
     public function edit($id)
     {
-        //
+        dd('hi this is edit metho din MContoller::class');
     }
 
     /**
@@ -68,10 +68,8 @@ class MyController extends Controller
      */
     public function update(Request $request, $id)
     {
-        //hi this is test
-           $a= 'ali';
-        dd($a , 'test' , 'just for check');
-        //end of comment
+      
+        //i deleted code wich was here
     }
 
     /**
