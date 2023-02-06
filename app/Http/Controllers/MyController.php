@@ -69,7 +69,7 @@ class MyController extends Controller
     public function update(Request $request, $id)
     {
         //hi this is test
-           $a= 'abbas';
+           $a= 'ali';
         dd($a , 'test' , 'just for check');
         //end of comment
     }
